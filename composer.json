@@ -1,0 +1,9 @@
+{
+    "require": {
+        "ryangjchandler/standalone-blade": "^0.1.0",
+        "spatie/file-system-watcher": "^1.1",
+        "spatie/yaml-front-matter": "^2.0",
+        "league/commonmark": "^2.3",
+        "spatie/commonmark-shiki-highlighter": "^2.1"
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+            <title>Variables | PHP by Example</title>
+    </head>
+<body class="antialiased font-sans bg-white max-w-3xl mx-auto pb-12">
+    <header class="py-12">
+        <a href="/">
+            <h1 class="text-3xl font-bold">
+                PHP by Example
+            </h1>
+        </a>
+    </header>
+
+    <main class="prose prose-sky">
+            <h2>
+        Variables
+    </h2>
+
+    <p>In PHP, variables are represented by a dollar sign <code>$</code> followed by a case-sensitive name. Values are assigned to a variable using the <code>=</code> operator.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #FF7B72">&lt;?</span><span style="color: #79C0FF">php</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">$name </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">&#39;Ryan&#39;</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"></span></code></pre>
+<p>Variables names must start with either an alphabetic character or an underscore.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #FF7B72">&lt;?</span><span style="color: #79C0FF">php</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">$name; </span><span style="color: #8B949E">// This is allowed.</span></span>
+<span class="line"><span style="color: #C9D1D9">$Name; </span><span style="color: #8B949E">// This is allowed.</span></span>
+<span class="line"><span style="color: #C9D1D9">$_name; </span><span style="color: #8B949E">// This is allowed.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">$</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">; </span><span style="color: #8B949E">// This is not allowed.</span></span>
+<span class="line"></span></code></pre>
+<p>You can declare multiple variables at once by using the <code>=</code> operator multiple times.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #FF7B72">&lt;?</span><span style="color: #79C0FF">php</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">$a </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> $b </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">100</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"></span></code></pre>
+<p>You can then use a variable by referencing it in the same way as your declared it.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #FF7B72">&lt;?</span><span style="color: #79C0FF">php</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">$message </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">&#39;Hello, world&#39;</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #79C0FF">echo</span><span style="color: #C9D1D9"> $message;</span></span>
+<span class="line"></span></code></pre>
+
+
+            <strong>Next: <a href="/constants.html">Constants</a></strong>
+        </main>
+</body>
+</html>
