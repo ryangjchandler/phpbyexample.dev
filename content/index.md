@@ -6,3 +6,5 @@ This website aims to provide a simple introduction to the language through annot
 
 - [Hello, world](/hello-world.html)
 - [Values](/values.html)
+- [Variables](/variables.html)
+- [Constants](/constants.html)
