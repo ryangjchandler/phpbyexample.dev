@@ -5,5 +5,8 @@
         "spatie/yaml-front-matter": "^2.0",
         "league/commonmark": "^2.3",
         "spatie/commonmark-shiki-highlighter": "^2.1"
+    },
+    "require-dev": {
+        "illuminate/support": "^9.26"
     }
 }

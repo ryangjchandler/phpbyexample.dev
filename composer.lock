@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83336d5d72b880946e741af32e4aa941",
+    "content-hash": "971073021062dcc90f55d8feec4c494e",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -686,16 +686,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v9.25.1",
+            "version": "v9.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "55938b5777c70a74b31e6765f0a321026c45a119"
+                "reference": "aa59158424c704011acd2b3276d020c3bb4759bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/55938b5777c70a74b31e6765f0a321026c45a119",
-                "reference": "55938b5777c70a74b31e6765f0a321026c45a119",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/aa59158424c704011acd2b3276d020c3bb4759bf",
+                "reference": "aa59158424c704011acd2b3276d020c3bb4759bf",
                 "shasum": ""
             },
             "require": {
@@ -751,7 +751,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-08-15T14:24:11+00:00"
+            "time": "2022-08-22T19:30:28+00:00"
         },
         {
             "name": "illuminate/view",

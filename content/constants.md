@@ -1,6 +1,6 @@
 ---
 title: Constants
-next: []
+next: [Arrays, /arrays.html]
 ---
 
 Constants in PHP are named values that cannot change during the execution of a script. They are case sensitive like variables but are defined separately.
