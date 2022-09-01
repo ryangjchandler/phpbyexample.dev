@@ -21,8 +21,40 @@
         Arrays
     </h2>
 
-    <blockquote>
-<p>Coming soon...</p>
+    <p>An array is a way of storing multiple values together in a list. Since PHP is dynamically typed, you can store different types of values inside of the same array.</p>
+<p>An array is created using square brackets <code>[]</code>.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$names </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #A5D6FF">&#39;John&#39;</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #A5D6FF">&#39;Jane&#39;</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">];</span></span>
+<span class="line"></span></code></pre>
+<p>Each value in the array is separated by a comma.</p>
+<h3>Accessing array items</h3>
+<p>To access an item in an array, you can use the <code>[]</code> operator and the index / position of the element.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$john </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> $names[</span><span style="color: #79C0FF">0</span><span style="color: #C9D1D9">];</span></span>
+<span class="line"><span style="color: #C9D1D9">$jane </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> $names[</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">];</span></span>
+<span class="line"></span></code></pre>
+<p>If you try to access an element that doesn't exist, PHP will trigger a warning.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$names </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [];</span></span>
+<span class="line"><span style="color: #C9D1D9">$names[</span><span style="color: #79C0FF">0</span><span style="color: #C9D1D9">];</span></span>
+<span class="line"></span></code></pre>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$ php ./index.php</span></span>
+<span class="line"><span style="color: #C9D1D9">Warning: Undefined array key 0 </span><span style="color: #FF7B72">in</span><span style="color: #C9D1D9"> php shell code on line 1</span></span>
+<span class="line"></span></code></pre>
+<h3>Array keys</h3>
+<p>PHP is different to other programming languages since you're allowed to assign values to specific keys in an array.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$ages </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #A5D6FF">&#39;John&#39;</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">=&gt;</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">45</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #A5D6FF">&#39;Jane&#39;</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">=&gt;</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">72</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">];</span></span>
+<span class="line"></span></code></pre>
+<p>You can specify the key on the left-hand side of the <code>=&gt;</code> sigil. The value then goes on the right.</p>
+<p>Instead of using the position to access the value, you now instead use the specified key.</p>
+<pre class="shiki" style="background-color: #0d1117"><code><span class="line"><span style="color: #C9D1D9">$john </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> $ages[</span><span style="color: #A5D6FF">&#39;John&#39;</span><span style="color: #C9D1D9">];</span></span>
+<span class="line"><span style="color: #C9D1D9">$jane </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> $ages[</span><span style="color: #A5D6FF">&#39;Jane&#39;</span><span style="color: #C9D1D9">];</span></span>
+<span class="line"></span></code></pre>
+<blockquote>
+<p><strong>Note</strong>: only strings and integers can be used as keys in an array.</p>
 </blockquote>
 
 
